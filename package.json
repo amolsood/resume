@@ -1,0 +1,28 @@
+{
+  "name": "resume-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "mkdir -p out && resume serve --dir out --theme $npm_config_theme",
+    "export": "mkdir -p out && resume export ./out/resume.pdf --theme $npm_config_theme"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonresume-theme-eloquent": "^5.0.0",
+    "jsonresume-theme-even": "^0.26.1",
+    "jsonresume-theme-flat": "^0.3.7",
+    "jsonresume-theme-github-styled": "^1.3.3",
+    "jsonresume-theme-keloran-fr": "^1.1.0",
+    "jsonresume-theme-modern": "^0.0.18",
+    "jsonresume-theme-paper": "^0.5.0",
+    "jsonresume-theme-pumpkin": "^1.1.4",
+    "jsonresume-theme-stackoverflow": "^2.1.0",
+    "resume-cli": "^3.1.2"
+  },
+  "volta": {
+    "node": "18.20.8"
+  }
+}
