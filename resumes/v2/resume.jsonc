@@ -6,7 +6,7 @@
 		"image": "",
 		"email": "sood.amol@gmail.com",
 		"phone": "+918860022710",
-		"summary": "Experienced software engineer with a strong focus on building real-world products using sound engineering practices and close collaboration with cross-functional teams. Previously led engineering teams and owned the design and architecture of robust, highly scalable, and fault-tolerant systems with strong observability through monitoring and alerting. Well-versed in AWS cloud services and modern programming techniques, with a hands-on approach and strong attention to detail. Seeking opportunities to work with new technologies and strategies while continuing to grow as a technical leader.",
+		"summary": "Experienced software engineer focused on building scalable, production-ready systems using strong engineering practices and AWS. Brings prior team leadership experience, a hands-on mindset, and close attention to reliability and observability.",
 		"location": {
 			"countryCode": "AU",
 			"address": "Newcastle, New South Wales"
@@ -152,15 +152,7 @@
 		{
 			"name": "Frontend",
 			"level": "Intermediate",
-			"keywords": [
-				"HTML",
-				"CSS",
-				"SCSS",
-				"JavaScript",
-				"TypeScript"
-				// "Angular"
-				// "React"
-			]
+			"keywords": ["HTML", "CSS", "SCSS", "JavaScript", "TypeScript"]
 		},
 		{
 			"name": "Backend",
@@ -289,12 +281,7 @@
 		{
 			"name": "Leadership",
 			"level": "Intermediate",
-			"keywords": [
-				"Technical Leadership",
-				"Mentoring",
-				"Team Enablement",
-				"Guiding Technical Decisions"
-			]
+			"keywords": ["Technical Leadership", "Mentoring", "Team Enablement"]
 		},
 		{
 			"name": "Accountability & Ownership",
@@ -303,7 +290,7 @@
 				"Service Ownership",
 				"End-to-End Delivery",
 				"Stakeholder Collaboration",
-				"Operational Responsibility"
+				"Guiding Technical Decisions"
 			]
 		}
 	],
