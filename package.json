@@ -15,8 +15,5 @@
     "jsonresume-theme-stackoverflow": "^2.1.0",
     "jsonresume-theme-straightforward": "^0.2.0",
     "resume-cli": "^3.1.2"
-  },
-  "volta": {
-    "node": "18.20.8"
   }
 }
