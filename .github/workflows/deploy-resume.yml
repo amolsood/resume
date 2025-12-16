@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install resume-cli
-        run: npm install -g resume-cli
+      - name: Install
+        run: npm install
 
       - name: Export resume.json to HTML
         run: resume export index.html --resume resume.json --theme stackoverflow
