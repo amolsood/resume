@@ -162,13 +162,7 @@
 		{
 			"name": "Frontend",
 			"level": "Intermediate",
-			"keywords": [
-				"HTML",
-				"CSS",
-				"SCSS",
-				"JavaScript",
-				"TypeScript"
-			]
+			"keywords": ["HTML", "CSS", "SCSS", "JavaScript", "TypeScript"]
 		},
 		{
 			"name": "Backend",
@@ -187,11 +181,7 @@
 		{
 			"name": "Programming Languages",
 			"level": "Advanced",
-			"keywords": [
-				"JavaScript",
-				"TypeScript",
-				"C#"
-			]
+			"keywords": ["JavaScript", "TypeScript", "C#"]
 		},
 		{
 			"name": "Cloud & AWS",
@@ -286,12 +276,7 @@
 		{
 			"name": "Version Control & Collaboration",
 			"level": "Advanced",
-			"keywords": [
-				"Git",
-				"GitHub",
-				"Pull Requests",
-				"Code Reviews"
-			]
+			"keywords": ["Git", "GitHub", "Pull Requests", "Code Reviews"]
 		},
 		{
 			"name": "Agile & Delivery",
@@ -306,11 +291,7 @@
 		{
 			"name": "Leadership",
 			"level": "Intermediate",
-			"keywords": [
-				"Technical Leadership",
-				"Mentoring",
-				"Team Enablement"
-			]
+			"keywords": ["Technical Leadership", "Mentoring", "Team Enablement"]
 		},
 		{
 			"name": "Accountability & Ownership",
@@ -332,11 +313,7 @@
 	"interests": [
 		{
 			"name": "Gaming",
-			"keywords": [
-				"Multiplayer Online Games",
-				"RPGs",
-				"Strategy Games"
-			]
+			"keywords": ["Multiplayer Online Games", "RPGs", "Strategy Games"]
 		}
 	],
 	"references": [
