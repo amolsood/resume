@@ -7,10 +7,6 @@
 		"email": "sood.amol@gmail.com",
 		"phone": "+918860022710",
 		"summary": "Experienced software engineer focused on building scalable, production-ready systems using strong engineering practices and AWS. Brings prior team leadership experience, a hands-on mindset, and close attention to reliability and observability.",
-		"location": {
-			"countryCode": "IN",
-			"address": "New Delhi"
-		},
 		"profiles": [
 			{
 				"network": "LinkedIn",
@@ -29,8 +25,8 @@
 			},
 			{
 				"network": "Google",
-				"username": "Calendar",
-				"url": "https://cal.com/amolsood"
+				"username": "Schedule a Meeting",
+				"url": "https://calendar.app.google/8z7WoELQEzvtjLbX8"
 			}
 		]
 	},
