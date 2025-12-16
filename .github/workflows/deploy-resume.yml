@@ -33,7 +33,7 @@ jobs:
           npx resume export dist/index.html \
             --resume resume.json \
             --theme stackoverflow
-          cp README.md dist/README.md
+          cp readme.md dist/readme.md
 
       - name: Deploy HTML to gh-pages
         uses: peaceiris/actions-gh-pages@v4
