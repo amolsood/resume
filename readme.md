@@ -113,4 +113,3 @@ Noida, Uttar Pradesh, India
 > Amol is the person who comes to my mind when thinking of the phrase Knowledge shared = Knowledge². He is tech-savvy and always eager to improve the overall tech quotient. We could always rely on Amol to debug problems thoroughly. Any technical problem is no more a problem when he takes it up.
 >
 > — Yash Shukla, Implementations, [base.com](https://base.com)
-

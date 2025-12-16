@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - resume.json
-      - README.md
+      - readme.md
 
 permissions:
   contents: write
