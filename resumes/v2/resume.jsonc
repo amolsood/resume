@@ -308,6 +308,10 @@
 	],
 	"references": [
 		{
+			"reference": "I had the pleasure of working with Amol at Stockpile, where he was a key backend engineer on our team. Amol is one of those engineers you can trust to take an idea from nothing and turn it into a production ready system that actually holds up in the real world. Technically, Amol is very strong across the backend stack. He is highly skilled in TypeScript, Node, Java, and both SQL and NoSQL databases, and he consistently applied that knowledge to build reliable, scalable services. He was comfortable owning projects end to end, from initial design and implementation to deployment and ongoing improvements. What really set Amol apart was his ability to communicate. He could explain highly technical concepts clearly to non-technical stakeholders, work closely with product managers to translate requirements into solid technical solutions, and collaborate effectively with external vendors and partners. He was thoughtful, clear, and pragmatic in how he approached tradeoffs and problem solving. Amol was also extremely responsive and dependable. When something needed attention, you could count on him to jump in, follow through, and keep everyone informed. On top of all of that, he was simply a pleasure to have on the team and someone I genuinely enjoyed working with. Any team would be lucky to have Amol, and I would absolutely work with him again. I strongly recommend him for any backend or full-stack engineering role.",
+			"name": "Zachary Zapata, Director of Engineering, Stockpile"
+		},
+		{
 			"reference": "Amol is the person who comes to my mind when thinking of the phrase Knowledge shared = Knowledge². He is tech-savvy and always eager to improve the overall tech quotient. We could always rely on Amol to debug problems thoroughly. Any technical problem is no more a problem when he takes it up.",
 			"name": "Yash Shukla, Implementations, base.com"
 		}
