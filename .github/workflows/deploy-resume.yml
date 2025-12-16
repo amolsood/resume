@@ -36,6 +36,9 @@ jobs:
           npx resume export dist/index.html \
             --resume resume.json \
             --theme stackoverflow
+          npx resume export dist/resume.pdf \
+            --resume resume.json \
+            --theme stackoverflow
           cp readme.md dist/readme.md
 
       - name: Inject download button
