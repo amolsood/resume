@@ -30,7 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build index.html from resume.json
+      - name: Build index.html and resume.pdf from resume.json
+        env:
+          CHROME_ARGS: --no-sandbox --disable-setuid-sandbox
         run: |
           mkdir -p dist
           npx resume export dist/index.html --resume resume.json --theme stackoverflow
