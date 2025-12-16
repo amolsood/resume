@@ -1,7 +1,9 @@
-name: Export Resume and Deploy to GitHub Pages
+name: Build & Deploy Resume
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -10,27 +12,29 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout main branch
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Export resume.json to HTML
+      - name: Build index.html from resume.json
         run: |
           mkdir -p dist
-          npx resume export dist/index.html --resume resume.json --theme stackoverflow
+          npx resume export dist/index.html \
+            --resume resume.json \
+            --theme stackoverflow
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy HTML to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
           publish_branch: gh-pages
-          keep_files: false
           force_orphan: true
