@@ -33,12 +33,8 @@ jobs:
       - name: Build index.html from resume.json
         run: |
           mkdir -p dist
-          npx resume export dist/index.html \
-            --resume resume.json \
-            --theme stackoverflow
-          npx resume export dist/resume.pdf \
-            --resume resume.json \
-            --theme stackoverflow
+          npx resume export dist/index.html --resume resume.json --theme stackoverflow
+          npx resume export dist/resume.pdf --resume resume.json --theme stackoverflow
           cp readme.md dist/readme.md
 
       - name: Inject download button
@@ -51,111 +47,124 @@ jobs:
 
           const injection = `
           <style>
-            .resume-download-fab {
+            :root {
+              --accent: #f48024;
+            }
+
+            .resume-fab-container {
               position: fixed;
-              bottom: 24px;
-              right: 24px;
-              z-index: 9999;
-              padding: 14px 18px;
-              background: #111827;
-              color: #ffffff;
-              border-radius: 9999px;
-              text-decoration: none;
-              font-weight: 600;
-              font-size: 14px;
-              line-height: 1;
-              display: inline-flex;
-              align-items: center;
-              gap: 8px;
-              box-shadow: 0 10px 25px rgba(0,0,0,0.25);
-
-              opacity: 0;
-              transform: translateY(12px);
-              animation: resumeFabEnter 0.6s ease-out 0.3s forwards;
-
-              transition:
-                transform 0.25s ease,
-                opacity 0.25s ease,
-                box-shadow 0.2s ease,
-                background 0.2s ease;
-            }
-
-            .resume-download-fab:hover {
-              background: #000000;
-              transform: translateY(-2px);
-              box-shadow: 0 14px 30px rgba(0,0,0,0.3);
-            }
-
-            .resume-download-fab:focus-visible {
-              outline: 3px solid #93c5fd;
-              outline-offset: 4px;
-            }
-
-            /* Hidden state when scrolling down */
-            .resume-download-fab.is-hidden {
-              opacity: 0;
-              transform: translateY(20px);
+              inset: auto 24px 24px auto;
+              z-index: 2147483647;
               pointer-events: none;
             }
 
-            @keyframes resumeFabEnter {
+            .resume-download-fab {
+              pointer-events: auto;
+              display: inline-flex;
+              align-items: center;
+              gap: 10px;
+
+              padding: 14px 22px;
+              border-radius: 9999px;
+
+              background: #ffffff;
+              color: var(--accent);
+              font-weight: 600;
+              font-size: 15px;
+              text-decoration: none;
+              letter-spacing: 0.2px;
+
+              border: 2px solid var(--accent);
+
+              box-shadow:
+                0 10px 25px rgba(0,0,0,0.18),
+                0 2px 6px rgba(0,0,0,0.12);
+
+              transform: translateX(0);
+              opacity: 0;
+
+              animation: fab-enter 0.5s ease-out 0.4s forwards;
+              transition:
+                transform 0.25s ease,
+                opacity 0.25s ease,
+                background-color 0.2s ease,
+                color 0.2s ease,
+                box-shadow 0.2s ease;
+            }
+
+            .resume-download-fab:hover {
+              background: var(--accent);
+              color: #ffffff;
+              transform: translateX(-4px);
+              box-shadow:
+                0 14px 30px rgba(244,128,36,0.35),
+                0 4px 10px rgba(0,0,0,0.2);
+            }
+
+            .resume-download-fab.is-hidden {
+              transform: translateX(140%);
+              opacity: 0;
+            }
+
+            @keyframes fab-enter {
+              from {
+                opacity: 0;
+                transform: translateX(140%);
+              }
               to {
                 opacity: 1;
-                transform: translateY(0);
+                transform: translateX(0);
               }
             }
 
-            /* Mobile tweaks */
             @media (max-width: 640px) {
+              .resume-fab-container {
+                inset: auto 16px 16px auto;
+              }
+
               .resume-download-fab {
-                bottom: 16px;
-                right: 16px;
-                padding: 12px 16px;
-                font-size: 13px;
+                padding: 12px 18px;
+                font-size: 14px;
               }
             }
 
-            /* Hide in print */
             @media print {
-              .resume-download-fab {
+              .resume-fab-container {
                 display: none;
               }
             }
           </style>
 
-          <a
-            href="resume.pdf"
-            download
-            class="resume-download-fab"
-            aria-label="Download resume as PDF"
-          >
-            ⬇ Download PDF
-          </a>
+          <div class="resume-fab-container">
+            <a
+              href="resume.pdf"
+              download
+              class="resume-download-fab"
+              aria-label="Download resume as PDF"
+            >
+              Download
+            </a>
+          </div>
 
           <script>
             (function () {
-              let lastScrollY = window.scrollY;
+              let lastY = window.scrollY;
               const fab = document.querySelector('.resume-download-fab');
               if (!fab) return;
 
-              const threshold = 10;
+              const threshold = 12;
 
               window.addEventListener('scroll', () => {
-                const currentScrollY = window.scrollY;
+                const y = window.scrollY;
+                if (Math.abs(y - lastY) < threshold) return;
 
-                if (Math.abs(currentScrollY - lastScrollY) < threshold) {
-                  return;
-                }
-
-                if (currentScrollY > lastScrollY) {
-                  // scrolling down
+                if (y > lastY) {
                   fab.classList.add('is-hidden');
                 } else {
-                  // scrolling up
                   fab.classList.remove('is-hidden');
                 }
 
-                lastScrollY = currentScrollY;
+                lastY = y;
               }, { passive: true });
             })();
           </script>
@@ -164,7 +173,6 @@ jobs:
           html = html.replace('</body>', `${injection}\n</body>`);
           fs.writeFileSync(file, html);
           EOF
-
       - name: Deploy HTML to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
