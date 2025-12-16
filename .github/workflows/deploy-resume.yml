@@ -7,6 +7,9 @@ on:
     paths:
       - resume.json
       - readme.md
+      - .github/workflows/deploy-resume.yml
+
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -34,6 +37,130 @@ jobs:
             --resume resume.json \
             --theme stackoverflow
           cp readme.md dist/readme.md
+
+      - name: Inject download button
+        run: |
+          node <<'EOF'
+          const fs = require('fs');
+
+          const file = 'dist/index.html';
+          let html = fs.readFileSync(file, 'utf8');
+
+          const injection = `
+          <style>
+            .resume-download-fab {
+              position: fixed;
+              bottom: 24px;
+              right: 24px;
+              z-index: 9999;
+              padding: 14px 18px;
+              background: #111827;
+              color: #ffffff;
+              border-radius: 9999px;
+              text-decoration: none;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 1;
+              display: inline-flex;
+              align-items: center;
+              gap: 8px;
+              box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+
+              opacity: 0;
+              transform: translateY(12px);
+              animation: resumeFabEnter 0.6s ease-out 0.3s forwards;
+
+              transition:
+                transform 0.25s ease,
+                opacity 0.25s ease,
+                box-shadow 0.2s ease,
+                background 0.2s ease;
+            }
+
+            .resume-download-fab:hover {
+              background: #000000;
+              transform: translateY(-2px);
+              box-shadow: 0 14px 30px rgba(0,0,0,0.3);
+            }
+
+            .resume-download-fab:focus-visible {
+              outline: 3px solid #93c5fd;
+              outline-offset: 4px;
+            }
+
+            /* Hidden state when scrolling down */
+            .resume-download-fab.is-hidden {
+              opacity: 0;
+              transform: translateY(20px);
+              pointer-events: none;
+            }
+
+            @keyframes resumeFabEnter {
+              to {
+                opacity: 1;
+                transform: translateY(0);
+              }
+            }
+
+            /* Mobile tweaks */
+            @media (max-width: 640px) {
+              .resume-download-fab {
+                bottom: 16px;
+                right: 16px;
+                padding: 12px 16px;
+                font-size: 13px;
+              }
+            }
+
+            /* Hide in print */
+            @media print {
+              .resume-download-fab {
+                display: none;
+              }
+            }
+          </style>
+
+          <a
+            href="resume.pdf"
+            download
+            class="resume-download-fab"
+            aria-label="Download resume as PDF"
+          >
+            ⬇ Download PDF
+          </a>
+
+          <script>
+            (function () {
+              let lastScrollY = window.scrollY;
+              const fab = document.querySelector('.resume-download-fab');
+              if (!fab) return;
+
+              const threshold = 10;
+
+              window.addEventListener('scroll', () => {
+                const currentScrollY = window.scrollY;
+
+                if (Math.abs(currentScrollY - lastScrollY) < threshold) {
+                  return;
+                }
+
+                if (currentScrollY > lastScrollY) {
+                  // scrolling down
+                  fab.classList.add('is-hidden');
+                } else {
+                  // scrolling up
+                  fab.classList.remove('is-hidden');
+                }
+
+                lastScrollY = currentScrollY;
+              }, { passive: true });
+            })();
+          </script>
+          `;
+
+          html = html.replace('</body>', `${injection}\n</body>`);
+          fs.writeFileSync(file, html);
+          EOF
 
       - name: Deploy HTML to gh-pages
         uses: peaceiris/actions-gh-pages@v4
