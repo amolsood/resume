@@ -5,8 +5,12 @@
 		"label": "Senior Software Engineer @ Stockpile",
 		"image": "",
 		"email": "sood.amol@gmail.com",
-		"phone": "+918860022710",
+		"phone": "+61485853890",
 		"summary": "Experienced software engineer focused on building scalable, production-ready systems using strong engineering practices and AWS. Brings prior team leadership experience, a hands-on mindset, and close attention to reliability and observability.",
+		"location": {
+			"countryCode": "AU",
+			"address": "Newcastle, New South Wales"
+		},
 		"profiles": [
 			{
 				"network": "LinkedIn",
