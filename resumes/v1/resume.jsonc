@@ -1,225 +1,205 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "basics": {
-    "name": "Amol Sood",
-    "label": "Senior Software Engineer @ Stockpile",
-    "image": "",
-    "email": "sood.amol@gmail.com",
-    "phone": "+918860022710",
-    "url": "",
-    "summary": "Have been striving to learn and collaborating to build products professionally with best practices to solve real world problems. \nRecently, been leading a team, designing and architecting robust, highly scalable, and fault-tolerant solutions enabled with monitoring and alerting. Well versed with cloud solutions like AWS and programming techniques. Besides, I always stay close to the ground and have an eye for detail.\n\nLooking for more exposure to new technologies, strategies and opportunities to refine leadership qualities.",
-    "location": {
-      "countryCode": "IN",
-      "address": "Delhi"
-    },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "soodamol",
-        "url": "https://www.linkedin.com/in/soodamol/"
-      },
-      {
-        "network": "GitHub",
-        "username": "amolsood",
-        "url": "https://github.com/amolsood"
-      }
-    ]
-  },
-  "work": [
-    {
-      "name": "Stockpile",
-      "position": "Senior Software Engineer",
-      "startDate": "2023-04-01",
-      "endDate": "",
-      "highlights": [],
-      "summary": "[Partner Integrations & Technical Leadership] - Led the technical implementation of integrations with Green Dot (banking & debit), Apex Clearing's Ascend APIs (investment platform), and Apex Bakkt (crypto accounts). Worked directly with partner engineering teams to understand API behavior, clarify requirements, and align integration details with internal product and engineering needs.\n\n[Architecture, Delivery & Vendor Evaluation] - Owned the solution design and architectural planning for all major integration initiatives. Scoped work, broke it into deliverable tasks, planned sprints, and contributed hands-on to development, testing, deployment, and monitoring. Evaluated third-party API documentation, identified risks early, and coordinated with vendor teams to resolve blockers efficiently.\n\n[Cloud Engineering & Cross-Team Enablement] - Built and delivered features across AWS services including Lambda, DynamoDB, ECS, EC2, SQL databases, EventBridge, and SNS. Developed production-grade TypeScript services with a focus on reliability and maintainability. Served as the SME for integration-related work, providing technical guidance to internal teams and supporting smooth delivery of customer-facing features.",
-      "url": "https://www.linkedin.com/company/3712733",
-      "location": "India, Remote"
-    },
-    {
-      "name": "Flyte",
-      "position": "Associate Technical Architect",
-      "startDate": "2020-09-30",
-      "endDate": "2023-03-30",
-      "highlights": [],
-      "summary": "[Team Empowerment] - Delegated ownership of key services to teammates and coached them into taking on leadership responsibilities, increasing autonomy and delivery capacity across the team.\n\n[Banking & Cryptocurrency] - Integrated banking services through Synapse to enable kids’ checking accounts, custom debit cards, and gifting of stocks. Led the end-to-end design, implementation, and integration of seamless crypto investment features in partnership with Apex Crypto Clearing.\n\n[Monitoring & Alerting] - Built a fully IaC-driven, system-wide real-time log monitoring framework using CloudWatch and DataDog. Automated dynamic dashboard creation per codeline and established real-time alerting for feature owners via PagerDuty using log-based monitors.\n\n[Customer Obsession] - Collaborated closely with Support to analyze customer pain points and designed solutions to improve the user journey. Enhanced customer analytics and transparency to drive better product decisions and user experience.",
-      "url": "https://www.linkedin.com/company/18210327",
-      "location": "Gurugram, Haryana, India"
-    },
-    {
-      "name": "Flyte",
-      "position": "Technical Lead",
-      "startDate": "2019-02-28",
-      "endDate": "2020-09-30",
-      "highlights": [],
-      "summary": "[Hands-on Leadership] - Defined scope, created tasks, coded alongside the team, removed blockers, and resolved development challenges to ensure fast and efficient delivery.\n\n[Passing Good Things Forward] - Designed and implemented a modular backend architecture by decoupling the platform into standardized packages—simplifying development and code reviews. Successfully transitioned ownership to the team for ongoing improvements and modernization.\n\n[Encouraging Self-Sufficiency] - Guided team members to take independent decisions with minimal dependencies, reducing round-trips and increasing overall efficiency and confidence.\n\n[Quality Gatekeeping] - Performed thorough peer code reviews and conducted holistic UAT to ensure stability and quality before features reached production.",
-      "url": "https://www.linkedin.com/company/18210327",
-      "location": "Gurugram, Haryana, India"
-    },
-    {
-      "name": "Quovantis Technologies",
-      "position": "Software Engineer",
-      "startDate": "2018-09-30",
-      "endDate": "2019-02-28",
-      "highlights": [],
-      "summary": "[Self-Learning] - Proactively invested time in learning the Angular framework during onboarding and knowledge transition.\n\n[Exposure to Large-Scale Applications] - Contributed to one of the company’s flagship projects, Vatica Health; a large-scale platform used across U.S. hospitals to manage Health IDs and medical records, built on Angular and .NET Web API.\n\n[Agile Delivery] - Followed Agile methodologies as part of the SDLC for the Vatica Health project, collaborating closely with cross-functional teams to deliver features iteratively.",
-      "url": "https://www.linkedin.com/company/1481546",
-      "location": "Noida, Uttar Pradesh, India"
-    },
-    {
-      "name": "AtDrive Group",
-      "position": "Software Development Engineer",
-      "startDate": "2016-02-28",
-      "endDate": "2018-08-31",
-      "highlights": [],
-      "summary": "[Getting Hands-On] - Began my career by learning the .NET Framework and building small applications using WPF, WCF, Entity Framework, and other related technologies.\n\n[Exposure to Professional Applications] - Quickly ramped up on the framework and joined the product team within two months. Contributed to multiple in-house products, including the Inventory Management System (IMS), Version Control System (VCS), Profiler & Load Recorder, Pine, and others.\n\n[B2B Product Development] - Extended our in-house product Pine to create a B2B offering called Fromine; a single-stop solution for HR and Employee services. This role provided exposure to production-grade software standards and initial hands-on experience with AWS.",
-      "url": "https://www.linkedin.com/company/3728304",
-      "location": "Noida, Uttar Pradesh, India"
-    }
-  ],
-  "volunteer": [],
-  "education": [
-    {
-      "institution": "Rajasthan Technical University",
-      "area": "Computer Science Engineering",
-      "studyType": "Bachelor of Technology (B.Tech.)",
-      "startDate": "2011-08-31",
-      "endDate": "2015-05-31",
-      "score": "72.8",
-      "courses": []
-    },
-    {
-      "institution": "Greenway Modern School, Delhi",
-      "area": "Science Specification with Computer Science",
-      "studyType": "12th",
-      "startDate": "2010-04-30",
-      "endDate": "2011-04-30",
-      "score": "82",
-      "courses": []
-    },
-    {
-      "institution": "St. Lawrence Public School",
-      "area": "Standard",
-      "studyType": "10th",
-      "startDate": "2008-04-30",
-      "endDate": "2009-04-30",
-      "score": "81.2",
-      "courses": []
-    }
-  ],
-  "awards": [],
-  "certificates": [
-    {
-      "name": "AWS Certified Solutions Architect - Associate",
-      "issuer": "Amazon Web Services (AWS)",
-      "endDate": "2025-03-31",
-      "startDate": "2022-03-31",
-      "url": "https://www.credly.com/badges/6cae121d-e195-487e-96c9-101806c67b21?source=linked_in_profile"
-    }
-  ],
-  "publications": [],
-  "skills": [
-    {
-      "name": "Backend Programming Languages",
-      "level": "",
-      "keywords": [
-        "C#",
-        "Java",
-        "JavaScript",
-        "SQL"
-      ]
-    },
-    {
-      "name": ".NET Backend Stack",
-      "level": "",
-      "keywords": [
-        ".NET Core",
-        ".NET Framework",
-        "ASP.NET",
-        "ASP.NET Web API",
-        "ASP.NET MVC",
-        "Entity Framework",
-        "WCF"
-      ]
-    },
-    {
-      "name": "Backend Runtimes & Frameworks",
-      "level": "",
-      "keywords": [
-        "Node.js",
-        "Microservices"
-      ]
-    },
-    {
-      "name": "Cloud Architecture & AWS",
-      "level": "",
-      "keywords": [
-        "Amazon Web Services (AWS)",
-        "Cloud Computing",
-        "Solution Architecture",
-        "Technical Solution Development",
-        "Amazon EC2",
-        "AWS Lambda",
-        "Amazon S3",
-        "Amazon RDS",
-        "Amazon Aurora",
-        "Amazon DynamoDB",
-        "Amazon CloudWatch",
-        "AWS CloudFormation"
-      ]
-    },
-    {
-      "name": "Databases & Data Stores",
-      "level": "",
-      "keywords": [
-        "MySQL",
-        "Microsoft SQL Server",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "name": "Architecture & Design Principles",
-      "level": "",
-      "keywords": [
-        "Object-Oriented Programming (OOP)",
-        "Microservices Architecture"
-      ]
-    },
-    {
-      "name": "DevOps & Engineering Tooling",
-      "level": "",
-      "keywords": [
-        "DevOps",
-        "Git"
-      ]
-    },
-    {
-      "name": "Software Engineering Practices",
-      "level": "",
-      "keywords": [
-        "Agile Methodologies",
-        "Software Development"
-      ]
-    },
-    {
-      "name": "Leadership & Technical Ownership",
-      "level": "",
-      "keywords": [
-        "Team Leadership"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native Speaker"
-    }
-  ],
-  "interests": [],
-  "references": [],
-  "projects": [],
-  "meta": {
-    "version": "v1.0.0",
-    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
-  }
+	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+	"basics": {
+		"name": "Amol Sood",
+		"label": "Senior Software Engineer @ Stockpile",
+		"image": "",
+		"email": "sood.amol@gmail.com",
+		"phone": "+918860022710",
+		"url": "",
+		"summary": "Have been striving to learn and collaborating to build products professionally with best practices to solve real world problems. \nRecently, been leading a team, designing and architecting robust, highly scalable, and fault-tolerant solutions enabled with monitoring and alerting. Well versed with cloud solutions like AWS and programming techniques. Besides, I always stay close to the ground and have an eye for detail.\n\nLooking for more exposure to new technologies, strategies and opportunities to refine leadership qualities.",
+		"location": {
+			"countryCode": "IN",
+			"address": "Delhi"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "soodamol",
+				"url": "https://www.linkedin.com/in/soodamol/"
+			},
+			{
+				"network": "GitHub",
+				"username": "amolsood",
+				"url": "https://github.com/amolsood"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Stockpile",
+			"position": "Senior Software Engineer",
+			"startDate": "2023-04-01",
+			"endDate": "",
+			"highlights": [],
+			"summary": "[Partner Integrations & Technical Leadership] - Led the technical implementation of integrations with Green Dot (banking & debit), Apex Clearing's Ascend APIs (investment platform), and Apex Bakkt (crypto accounts). Worked directly with partner engineering teams to understand API behavior, clarify requirements, and align integration details with internal product and engineering needs.\n\n[Architecture, Delivery & Vendor Evaluation] - Owned the solution design and architectural planning for all major integration initiatives. Scoped work, broke it into deliverable tasks, planned sprints, and contributed hands-on to development, testing, deployment, and monitoring. Evaluated third-party API documentation, identified risks early, and coordinated with vendor teams to resolve blockers efficiently.\n\n[Cloud Engineering & Cross-Team Enablement] - Built and delivered features across AWS services including Lambda, DynamoDB, ECS, EC2, SQL databases, EventBridge, and SNS. Developed production-grade TypeScript services with a focus on reliability and maintainability. Served as the SME for integration-related work, providing technical guidance to internal teams and supporting smooth delivery of customer-facing features.",
+			"url": "https://www.linkedin.com/company/3712733",
+			"location": "India, Remote"
+		},
+		{
+			"name": "Flyte",
+			"position": "Associate Technical Architect",
+			"startDate": "2020-09-30",
+			"endDate": "2023-03-30",
+			"highlights": [],
+			"summary": "[Team Empowerment] - Delegated ownership of key services to teammates and coached them into taking on leadership responsibilities, increasing autonomy and delivery capacity across the team.\n\n[Banking & Cryptocurrency] - Integrated banking services through Synapse to enable kids’ checking accounts, custom debit cards, and gifting of stocks. Led the end-to-end design, implementation, and integration of seamless crypto investment features in partnership with Apex Crypto Clearing.\n\n[Monitoring & Alerting] - Built a fully IaC-driven, system-wide real-time log monitoring framework using CloudWatch and DataDog. Automated dynamic dashboard creation per codeline and established real-time alerting for feature owners via PagerDuty using log-based monitors.\n\n[Customer Obsession] - Collaborated closely with Support to analyze customer pain points and designed solutions to improve the user journey. Enhanced customer analytics and transparency to drive better product decisions and user experience.",
+			"url": "https://www.linkedin.com/company/18210327",
+			"location": "Gurugram, Haryana, India"
+		},
+		{
+			"name": "Flyte",
+			"position": "Technical Lead",
+			"startDate": "2019-02-28",
+			"endDate": "2020-09-30",
+			"highlights": [],
+			"summary": "[Hands-on Leadership] - Defined scope, created tasks, coded alongside the team, removed blockers, and resolved development challenges to ensure fast and efficient delivery.\n\n[Passing Good Things Forward] - Designed and implemented a modular backend architecture by decoupling the platform into standardized packages—simplifying development and code reviews. Successfully transitioned ownership to the team for ongoing improvements and modernization.\n\n[Encouraging Self-Sufficiency] - Guided team members to take independent decisions with minimal dependencies, reducing round-trips and increasing overall efficiency and confidence.\n\n[Quality Gatekeeping] - Performed thorough peer code reviews and conducted holistic UAT to ensure stability and quality before features reached production.",
+			"url": "https://www.linkedin.com/company/18210327",
+			"location": "Gurugram, Haryana, India"
+		},
+		{
+			"name": "Quovantis Technologies",
+			"position": "Software Engineer",
+			"startDate": "2018-09-30",
+			"endDate": "2019-02-28",
+			"highlights": [],
+			"summary": "[Self-Learning] - Proactively invested time in learning the Angular framework during onboarding and knowledge transition.\n\n[Exposure to Large-Scale Applications] - Contributed to one of the company’s flagship projects, Vatica Health; a large-scale platform used across U.S. hospitals to manage Health IDs and medical records, built on Angular and .NET Web API.\n\n[Agile Delivery] - Followed Agile methodologies as part of the SDLC for the Vatica Health project, collaborating closely with cross-functional teams to deliver features iteratively.",
+			"url": "https://www.linkedin.com/company/1481546",
+			"location": "Noida, Uttar Pradesh, India"
+		},
+		{
+			"name": "AtDrive Group",
+			"position": "Software Development Engineer",
+			"startDate": "2016-02-28",
+			"endDate": "2018-08-31",
+			"highlights": [],
+			"summary": "[Getting Hands-On] - Began my career by learning the .NET Framework and building small applications using WPF, WCF, Entity Framework, and other related technologies.\n\n[Exposure to Professional Applications] - Quickly ramped up on the framework and joined the product team within two months. Contributed to multiple in-house products, including the Inventory Management System (IMS), Version Control System (VCS), Profiler & Load Recorder, Pine, and others.\n\n[B2B Product Development] - Extended our in-house product Pine to create a B2B offering called Fromine; a single-stop solution for HR and Employee services. This role provided exposure to production-grade software standards and initial hands-on experience with AWS.",
+			"url": "https://www.linkedin.com/company/3728304",
+			"location": "Noida, Uttar Pradesh, India"
+		}
+	],
+	"volunteer": [],
+	"education": [
+		{
+			"institution": "Rajasthan Technical University",
+			"area": "Computer Science Engineering",
+			"studyType": "Bachelor of Technology (B.Tech.)",
+			"startDate": "2011-08-31",
+			"endDate": "2015-05-31",
+			"score": "72.8",
+			"courses": []
+		},
+		{
+			"institution": "Greenway Modern School, Delhi",
+			"area": "Science Specification with Computer Science",
+			"studyType": "12th",
+			"startDate": "2010-04-30",
+			"endDate": "2011-04-30",
+			"score": "82",
+			"courses": []
+		},
+		{
+			"institution": "St. Lawrence Public School",
+			"area": "Standard",
+			"studyType": "10th",
+			"startDate": "2008-04-30",
+			"endDate": "2009-04-30",
+			"score": "81.2",
+			"courses": []
+		}
+	],
+	"awards": [],
+	"certificates": [
+		{
+			"name": "AWS Certified Solutions Architect - Associate",
+			"issuer": "Amazon Web Services (AWS)",
+			"endDate": "2025-03-31",
+			"startDate": "2022-03-31",
+			"url": "https://www.credly.com/badges/6cae121d-e195-487e-96c9-101806c67b21"
+		}
+	],
+	"publications": [],
+	"skills": [
+		{
+			"name": "Backend Programming Languages",
+			"level": "",
+			"keywords": ["C#", "Java", "JavaScript", "SQL"]
+		},
+		{
+			"name": ".NET Backend Stack",
+			"level": "",
+			"keywords": [
+				".NET Core",
+				".NET Framework",
+				"ASP.NET",
+				"ASP.NET Web API",
+				"ASP.NET MVC",
+				"Entity Framework",
+				"WCF"
+			]
+		},
+		{
+			"name": "Backend Runtimes & Frameworks",
+			"level": "",
+			"keywords": ["Node.js", "Microservices"]
+		},
+		{
+			"name": "Cloud Architecture & AWS",
+			"level": "",
+			"keywords": [
+				"Amazon Web Services (AWS)",
+				"Cloud Computing",
+				"Solution Architecture",
+				"Technical Solution Development",
+				"Amazon EC2",
+				"AWS Lambda",
+				"Amazon S3",
+				"Amazon RDS",
+				"Amazon Aurora",
+				"Amazon DynamoDB",
+				"Amazon CloudWatch",
+				"AWS CloudFormation"
+			]
+		},
+		{
+			"name": "Databases & Data Stores",
+			"level": "",
+			"keywords": ["MySQL", "Microsoft SQL Server", "Elasticsearch"]
+		},
+		{
+			"name": "Architecture & Design Principles",
+			"level": "",
+			"keywords": [
+				"Object-Oriented Programming (OOP)",
+				"Microservices Architecture"
+			]
+		},
+		{
+			"name": "DevOps & Engineering Tooling",
+			"level": "",
+			"keywords": ["DevOps", "Git"]
+		},
+		{
+			"name": "Software Engineering Practices",
+			"level": "",
+			"keywords": ["Agile Methodologies", "Software Development"]
+		},
+		{
+			"name": "Leadership & Technical Ownership",
+			"level": "",
+			"keywords": ["Team Leadership"]
+		}
+	],
+	"languages": [
+		{
+			"language": "English",
+			"fluency": "Native Speaker"
+		}
+	],
+	"interests": [],
+	"references": [],
+	"projects": [],
+	"meta": {
+		"version": "v1.0.0",
+		"canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+	}
 }

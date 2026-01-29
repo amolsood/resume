@@ -88,13 +88,11 @@ Noida, Uttar Pradesh, India
 
 ## 🏅 Certifications
 
-- [AWS Certified Solutions Architect - Associate](https://www.credly.com/badges/6cae121d-e195-487e-96c9-101806c67b21?source=linked_in_profile) — Amazon Web Services (AWS) (2022-03 to 2025-03)
+- [AWS Certified Solutions Architect - Associate](https://www.credly.com/badges/6cae121d-e195-487e-96c9-101806c67b21) — Amazon Web Services (AWS) (2022-03 to 2025-03)
 
 ## 🎓 Education
 
 - **Rajasthan Technical University** — Bachelor of Technology (B.Tech.), Computer Science Engineering (2011-08 to 2015-05) · Score: 72.8
-- **Greenway Modern School, Delhi** — 12th, Science Specification with Computer Science (2010-04 to 2011-04) · Score: 82
-- **St. Lawrence Public School** — 10th, Standard (2008-04 to 2009-04) · Score: 81.2
 
 ## 🗣️ Languages
 
