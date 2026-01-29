@@ -5,7 +5,7 @@
 		"label": "Senior Software Engineer @ Stockpile",
 		"image": "",
 		"email": "sood.amol@gmail.com",
-		"phone": "+61 485 853 890",
+		"phone": "+61485853890",
 		"summary": "Experienced software engineer focused on building scalable, production-ready systems using strong engineering practices and AWS. Brings prior team leadership experience, a hands-on mindset, and close attention to reliability and observability.",
 		"location": {
 			"countryCode": "AU",
@@ -127,25 +127,25 @@
 			"endDate": "2015-05-31",
 			"score": "72.8",
 			"courses": []
-		},
-		{
-			"institution": "Greenway Modern School, Delhi",
-			"area": "Science Specification with Computer Science",
-			"studyType": "12th",
-			"startDate": "2010-04-30",
-			"endDate": "2011-04-30",
-			"score": "82",
-			"courses": []
-		},
-		{
-			"institution": "St. Lawrence Public School",
-			"area": "Standard",
-			"studyType": "10th",
-			"startDate": "2008-04-30",
-			"endDate": "2009-04-30",
-			"score": "81.2",
-			"courses": []
 		}
+		// {
+		// 	"institution": "Greenway Modern School, Delhi",
+		// 	"area": "Science Specification with Computer Science",
+		// 	"studyType": "12th",
+		// 	"startDate": "2010-04-30",
+		// 	"endDate": "2011-04-30",
+		// 	"score": "82",
+		// 	"courses": []
+		// },
+		// {
+		// 	"institution": "St. Lawrence Public School",
+		// 	"area": "Standard",
+		// 	"studyType": "10th",
+		// 	"startDate": "2008-04-30",
+		// 	"endDate": "2009-04-30",
+		// 	"score": "81.2",
+		// 	"courses": []
+		// }
 	],
 	"awards": [],
 	"certificates": [
@@ -161,12 +161,12 @@
 	"skills": [
 		{
 			"name": "Frontend",
-			"level": "Intermediate",
+			// "level": "Intermediate",
 			"keywords": ["HTML", "CSS", "SCSS", "JavaScript", "TypeScript"]
 		},
 		{
 			"name": "Backend",
-			"level": "Master",
+			// "level": "Master",
 			"keywords": [
 				"Node.js",
 				"C#",
@@ -180,12 +180,12 @@
 		},
 		{
 			"name": "Programming Languages",
-			"level": "Advanced",
+			// "level": "Advanced",
 			"keywords": ["JavaScript", "TypeScript", "C#"]
 		},
 		{
 			"name": "Cloud & AWS",
-			"level": "Advanced",
+			// "level": "Advanced",
 			"keywords": [
 				"Amazon Web Services (AWS)",
 				"AWS Lambda",
@@ -203,7 +203,7 @@
 		},
 		{
 			"name": "Databases & Data Stores",
-			"level": "Advanced",
+			// "level": "Advanced",
 			"keywords": [
 				"DynamoDB",
 				"Redis",
@@ -216,7 +216,7 @@
 		},
 		{
 			"name": "Serverless & Distributed Systems",
-			"level": "Advanced",
+			// "level": "Advanced",
 			"keywords": [
 				"Serverless Architecture",
 				"Event-Driven Architecture",
@@ -227,7 +227,7 @@
 		},
 		{
 			"name": "DevOps & CI/CD",
-			"level": "Advanced",
+			// "level": "Advanced",
 			"keywords": [
 				"Docker",
 				"CI/CD",
@@ -240,7 +240,7 @@
 		},
 		{
 			"name": "Monitoring & Observability",
-			"level": "Intermediate",
+			// "level": "Intermediate",
 			"keywords": [
 				"CloudWatch",
 				"DataDog",
@@ -252,7 +252,7 @@
 		},
 		{
 			"name": "Architecture & Design",
-			"level": "Master",
+			// "level": "Master",
 			"keywords": [
 				"Solution Architecture",
 				"System Design",
@@ -263,7 +263,7 @@
 		},
 		{
 			"name": "Testing & Quality",
-			"level": "Intermediate",
+			// "level": "Intermediate",
 			"keywords": [
 				"Unit Testing",
 				"Integration Testing",
@@ -275,12 +275,12 @@
 		},
 		{
 			"name": "Version Control & Collaboration",
-			"level": "Advanced",
+			// "level": "Advanced",
 			"keywords": ["Git", "GitHub", "Pull Requests", "Code Reviews"]
 		},
 		{
 			"name": "Agile & Delivery",
-			"level": "Advanced",
+			// "level": "Advanced",
 			"keywords": [
 				"Agile Methodologies",
 				"Scrum",
@@ -290,12 +290,12 @@
 		},
 		{
 			"name": "Leadership",
-			"level": "Intermediate",
+			// "level": "Intermediate",
 			"keywords": ["Technical Leadership", "Mentoring", "Team Enablement"]
 		},
 		{
 			"name": "Accountability & Ownership",
-			"level": "Advanced",
+			// "level": "Advanced",
 			"keywords": [
 				"Service Ownership",
 				"End-to-End Delivery",

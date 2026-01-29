@@ -127,24 +127,6 @@
 			"endDate": "2015-05-31",
 			"score": "72.8",
 			"courses": []
-		},
-		{
-			"institution": "Greenway Modern School, Delhi",
-			"area": "Science Specification with Computer Science",
-			"studyType": "12th",
-			"startDate": "2010-04-30",
-			"endDate": "2011-04-30",
-			"score": "82",
-			"courses": []
-		},
-		{
-			"institution": "St. Lawrence Public School",
-			"area": "Standard",
-			"studyType": "10th",
-			"startDate": "2008-04-30",
-			"endDate": "2009-04-30",
-			"score": "81.2",
-			"courses": []
 		}
 	],
 	"awards": [],
@@ -161,7 +143,6 @@
 	"skills": [
 		{
 			"name": "Frontend",
-			"level": "Intermediate",
 			"keywords": [
 				"HTML",
 				"CSS",
@@ -172,7 +153,6 @@
 		},
 		{
 			"name": "Backend",
-			"level": "Master",
 			"keywords": [
 				"Node.js",
 				"C#",
@@ -186,7 +166,6 @@
 		},
 		{
 			"name": "Programming Languages",
-			"level": "Advanced",
 			"keywords": [
 				"JavaScript",
 				"TypeScript",
@@ -195,7 +174,6 @@
 		},
 		{
 			"name": "Cloud & AWS",
-			"level": "Advanced",
 			"keywords": [
 				"Amazon Web Services (AWS)",
 				"AWS Lambda",
@@ -213,7 +191,6 @@
 		},
 		{
 			"name": "Databases & Data Stores",
-			"level": "Advanced",
 			"keywords": [
 				"DynamoDB",
 				"Redis",
@@ -226,7 +203,6 @@
 		},
 		{
 			"name": "Serverless & Distributed Systems",
-			"level": "Advanced",
 			"keywords": [
 				"Serverless Architecture",
 				"Event-Driven Architecture",
@@ -237,7 +213,6 @@
 		},
 		{
 			"name": "DevOps & CI/CD",
-			"level": "Advanced",
 			"keywords": [
 				"Docker",
 				"CI/CD",
@@ -250,7 +225,6 @@
 		},
 		{
 			"name": "Monitoring & Observability",
-			"level": "Intermediate",
 			"keywords": [
 				"CloudWatch",
 				"DataDog",
@@ -262,7 +236,6 @@
 		},
 		{
 			"name": "Architecture & Design",
-			"level": "Master",
 			"keywords": [
 				"Solution Architecture",
 				"System Design",
@@ -273,7 +246,6 @@
 		},
 		{
 			"name": "Testing & Quality",
-			"level": "Intermediate",
 			"keywords": [
 				"Unit Testing",
 				"Integration Testing",
@@ -285,7 +257,6 @@
 		},
 		{
 			"name": "Version Control & Collaboration",
-			"level": "Advanced",
 			"keywords": [
 				"Git",
 				"GitHub",
@@ -295,7 +266,6 @@
 		},
 		{
 			"name": "Agile & Delivery",
-			"level": "Advanced",
 			"keywords": [
 				"Agile Methodologies",
 				"Scrum",
@@ -305,7 +275,6 @@
 		},
 		{
 			"name": "Leadership",
-			"level": "Intermediate",
 			"keywords": [
 				"Technical Leadership",
 				"Mentoring",
@@ -314,7 +283,6 @@
 		},
 		{
 			"name": "Accountability & Ownership",
-			"level": "Advanced",
 			"keywords": [
 				"Service Ownership",
 				"End-to-End Delivery",
