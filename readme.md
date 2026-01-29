@@ -71,20 +71,20 @@ Noida, Uttar Pradesh, India
 
 ## 🧰 Skills
 
-- **Frontend** (Intermediate): HTML, CSS, SCSS, JavaScript, TypeScript
-- **Backend** (Master): Node.js, C#, .NET Framework, .NET Core, ASP.NET, ASP.NET Web API, Microservices, REST APIs
-- **Programming Languages** (Advanced): JavaScript, TypeScript, C#
-- **Cloud & AWS** (Advanced): Amazon Web Services (AWS), AWS Lambda, Amazon EC2, Amazon ECS, Amazon S3, Amazon DynamoDB, Amazon RDS, Amazon Aurora, Amazon CloudWatch, AWS CloudFormation, EventBridge, SNS
-- **Databases & Data Stores** (Advanced): DynamoDB, Redis, MySQL, SQLite, PostgreSQL, Microsoft SQL Server, Elasticsearch
-- **Serverless & Distributed Systems** (Advanced): Serverless Architecture, Event-Driven Architecture, On-Demand Scaling, Fault-Tolerant Systems, High Availability
-- **DevOps & CI/CD** (Advanced): Docker, CI/CD, GitHub Actions, IaC, Terraform, CloudFormation, DevOps Practices
-- **Monitoring & Observability** (Intermediate): CloudWatch, DataDog, PagerDuty, Logging, Metrics, Alerting
-- **Architecture & Design** (Master): Solution Architecture, System Design, Microservices Architecture, Object-Oriented Programming, API Design
-- **Testing & Quality** (Intermediate): Unit Testing, Integration Testing, UAT, Code Reviews, ESLint, Prettier
-- **Version Control & Collaboration** (Advanced): Git, GitHub, Pull Requests, Code Reviews
-- **Agile & Delivery** (Advanced): Agile Methodologies, Scrum, Sprint Planning, Cross-Functional Collaboration
-- **Leadership** (Intermediate): Technical Leadership, Mentoring, Team Enablement
-- **Accountability & Ownership** (Advanced): Service Ownership, End-to-End Delivery, Stakeholder Collaboration, Guiding Technical Decisions
+- **Frontend** : HTML, CSS, SCSS, JavaScript, TypeScript
+- **Backend** : Node.js, C#, .NET Framework, .NET Core, ASP.NET, ASP.NET Web API, Microservices, REST APIs
+- **Programming Languages** : JavaScript, TypeScript, C#
+- **Cloud & AWS** : Amazon Web Services (AWS), AWS Lambda, Amazon EC2, Amazon ECS, Amazon S3, Amazon DynamoDB, Amazon RDS, Amazon Aurora, Amazon CloudWatch, AWS CloudFormation, EventBridge, SNS
+- **Databases & Data Stores** : DynamoDB, Redis, MySQL, SQLite, PostgreSQL, Microsoft SQL Server, Elasticsearch
+- **Serverless & Distributed Systems** : Serverless Architecture, Event-Driven Architecture, On-Demand Scaling, Fault-Tolerant Systems, High Availability
+- **DevOps & CI/CD** : Docker, CI/CD, GitHub Actions, IaC, Terraform, CloudFormation, DevOps Practices
+- **Monitoring & Observability** : CloudWatch, DataDog, PagerDuty, Logging, Metrics, Alerting
+- **Architecture & Design** : Solution Architecture, System Design, Microservices Architecture, Object-Oriented Programming, API Design
+- **Testing & Quality** : Unit Testing, Integration Testing, UAT, Code Reviews, ESLint, Prettier
+- **Version Control & Collaboration** : Git, GitHub, Pull Requests, Code Reviews
+- **Agile & Delivery** : Agile Methodologies, Scrum, Sprint Planning, Cross-Functional Collaboration
+- **Leadership** : Technical Leadership, Mentoring, Team Enablement
+- **Accountability & Ownership** : Service Ownership, End-to-End Delivery, Stakeholder Collaboration, Guiding Technical Decisions
 
 ## 🏅 Certifications
 
