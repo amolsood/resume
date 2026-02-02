@@ -3,7 +3,6 @@
 	"basics": {
 		"name": "Amol Sood",
 		"label": "Senior Software Engineer @ Stockpile",
-		"image": "",
 		"email": "sood.amol@gmail.com",
 		"phone": "+61485853890",
 		"summary": "Experienced software engineer focused on building scalable, production-ready systems using strong engineering practices and AWS. Brings prior team leadership experience, a hands-on mindset, and close attention to reliability and observability.",
@@ -36,10 +35,28 @@
 	},
 	"work": [
 		{
+			"name": "Sciana Health",
+			"company": "Sciana Health (via LogicWeave)",
+			"position": "Senior Software Engineer",
+			"startDate": "2025-04-29",
+			"endDate": "2025-12-12",
+			"highlights": [
+				"Clinical Platform Architecture: Designed and delivered a cloud-native, serverless backend powering nationwide concussion assessments and preventative health checks, translating clinical workflows into a scalable, resilient AWS architecture",
+				"Schema-First API Design: Implemented OpenAPI-driven, contract-first APIs to enforce strict data models between a Next.js frontend and decoupled Lambda-based services, enabling predictable integrations and faster clinical feature delivery",
+				"Medical Device & Third-Party Integration: Led end-to-end integration with NeuroFlex VR APIs, enabling secure ingestion of diagnostic assessment data and automated generation of clinician-ready, shareable PDF health reports",
+				"Event-Driven Healthcare Systems: Built an asynchronous, event-driven microservices ecosystem using EventBridge, SQS, and SNS to reliably orchestrate bookings, patient visits, assessment results, and downstream notifications at scale",
+				"Cloud DevOps & Reliability: Established CI/CD pipelines and infrastructure automation for AWS services (API Gateway, Lambda, DynamoDB, S3), supporting rapid iteration while maintaining high availability for mission-critical clinical operations"
+			],
+			"summary": "Led the backend engineering of a cloud-native healthcare platform enabling concussion assessments and preventative health checks across clinics in Australia. Owned the end-to-end design and delivery of serverless APIs, event-driven workflows, and secure medical device integrations with NeuroFlex VR. Played a pivotal role in translating clinical and operational requirements into scalable software systems, including automated medical reporting, nationwide booking orchestration, and high-reliability DevOps pipelines, modernizing patient assessment and clinical data flows.",
+			"url": "https://sciana.health",
+			"location": "Remote (Australia-based HealthTech)"
+		},
+		{
 			"name": "Stockpile",
 			"company": "Stockpile",
 			"position": "Senior Software Engineer",
 			"startDate": "2023-04-01",
+			"endDate": "2025-04-15",
 			"highlights": [
 				"Partner Integrations: Led end-to-end integrations with Green Dot, Apex Clearing Ascend APIs, and Apex Bakkt",
 				"Architecture Ownership: Designed and owned solution architecture, sprint planning, and delivery execution",
@@ -47,7 +64,7 @@
 			],
 			"summary": "Led and owned complex third-party partner integrations for regulated fintech platforms, driving solution design from architecture through production delivery. Acted as the technical point of contact for external partners and internal teams, growing into a technical leadership role with responsibility for integration strategy, delivery execution, and cloud architecture across multiple AWS services.",
 			"url": "https://www.stockpile.com",
-			"location": "Remote (US-based company)"
+			"location": "Remote (US-based FinTech)"
 		},
 		{
 			"name": "Flyte",
@@ -146,7 +163,6 @@
 			"keywords": [
 				"HTML",
 				"CSS",
-				"SCSS",
 				"JavaScript",
 				"TypeScript"
 			]
@@ -186,7 +202,8 @@
 				"Amazon CloudWatch",
 				"AWS CloudFormation",
 				"EventBridge",
-				"SNS"
+				"SNS",
+				"SQS"
 			]
 		},
 		{
@@ -241,18 +258,8 @@
 				"System Design",
 				"Microservices Architecture",
 				"Object-Oriented Programming",
-				"API Design"
-			]
-		},
-		{
-			"name": "Testing & Quality",
-			"keywords": [
-				"Unit Testing",
-				"Integration Testing",
-				"UAT",
-				"Code Reviews",
-				"ESLint",
-				"Prettier"
+				"API Design",
+				"OpenAPI"
 			]
 		},
 		{
@@ -260,7 +267,6 @@
 			"keywords": [
 				"Git",
 				"GitHub",
-				"Pull Requests",
 				"Code Reviews"
 			]
 		},
@@ -289,12 +295,6 @@
 				"Stakeholder Collaboration",
 				"Guiding Technical Decisions"
 			]
-		}
-	],
-	"languages": [
-		{
-			"language": "English",
-			"fluency": "Native Speaker"
 		}
 	],
 	"interests": [
