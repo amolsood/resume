@@ -1,9 +1,9 @@
 # Amol Sood
 
-**Senior Software Engineer @ Stockpile**
+**Software Engineer**
 
 📧 Email: [sood.amol@gmail.com](mailto:sood.amol@gmail.com)
-📱 Phone: [+918860022710](tel:+918860022710)
+📱 Phone: [+61485853890](tel:+61485853890)
 💬 WhatsApp: [wa.me/918860022710](https://wa.me/918860022710)
 💼 LinkedIn: [linkedin.com/in/soodamol](https://www.linkedin.com/in/soodamol/)
 💻 GitHub: [github.com/amolsood](https://github.com/amolsood)
@@ -15,8 +15,19 @@ Experienced software engineer focused on building scalable, production-ready sys
 
 ## 🏢 Experience
 
-**Senior Software Engineer**, [Stockpile](https://www.stockpile.com) — 2023-04 to Present
-Remote (US-based company)
+**Senior Software Engineer - Backend Platform**, [Sciana Health](https://sciana.health) (via LogicWeave) — 2025-04 to 2025-12
+Remote (Australia-based HealthTech)
+
+*Led the backend engineering of a cloud-native healthcare platform enabling concussion assessments and preventative health checks across clinics in Australia. Owned the end-to-end design and delivery of serverless APIs, event-driven workflows, and secure medical device integrations with NeuroFlex VR. Played a pivotal role in translating clinical and operational requirements into scalable software systems, including automated medical reporting, nationwide booking orchestration, and high-reliability DevOps pipelines, modernizing patient assessment and clinical data flows.*
+
+- Clinical Platform Architecture: Designed and delivered a cloud-native, serverless backend powering nationwide concussion assessments and preventative health checks, translating clinical workflows into a scalable, resilient AWS architecture
+- Schema-First API Design: Implemented OpenAPI-driven, contract-first APIs to enforce strict data models between a Next.js frontend and decoupled Lambda-based services, enabling predictable integrations and faster clinical feature delivery
+- Medical Device & Third-Party Integration: Led end-to-end integration with NeuroFlex VR APIs, enabling secure ingestion of diagnostic assessment data and automated generation of clinician-ready, shareable PDF health reports
+- Event-Driven Healthcare Systems: Built an asynchronous, event-driven microservices ecosystem using EventBridge, SQS, and SNS to reliably orchestrate bookings, patient visits, assessment results, and downstream notifications at scale
+- Cloud DevOps & Reliability: Established CI/CD pipelines and infrastructure automation for AWS services (API Gateway, Lambda, DynamoDB, S3), supporting rapid iteration while maintaining high availability for mission-critical clinical operations
+
+**Senior Software Engineer - Platform Integrations & Cloud Architecture**, [Stockpile](https://www.stockpile.com) — 2023-04 to 2025-04
+Remote (US-based FinTech)
 
 *Led and owned complex third-party partner integrations for regulated fintech platforms, driving solution design from architecture through production delivery. Acted as the technical point of contact for external partners and internal teams, growing into a technical leadership role with responsibility for integration strategy, delivery execution, and cloud architecture across multiple AWS services.*
 
@@ -71,20 +82,19 @@ Noida, Uttar Pradesh, India
 
 ## 🧰 Skills
 
-- **Frontend** : HTML, CSS, SCSS, JavaScript, TypeScript
-- **Backend** : Node.js, C#, .NET Framework, .NET Core, ASP.NET, ASP.NET Web API, Microservices, REST APIs
-- **Programming Languages** : JavaScript, TypeScript, C#
-- **Cloud & AWS** : Amazon Web Services (AWS), AWS Lambda, Amazon EC2, Amazon ECS, Amazon S3, Amazon DynamoDB, Amazon RDS, Amazon Aurora, Amazon CloudWatch, AWS CloudFormation, EventBridge, SNS
-- **Databases & Data Stores** : DynamoDB, Redis, MySQL, SQLite, PostgreSQL, Microsoft SQL Server, Elasticsearch
-- **Serverless & Distributed Systems** : Serverless Architecture, Event-Driven Architecture, On-Demand Scaling, Fault-Tolerant Systems, High Availability
-- **DevOps & CI/CD** : Docker, CI/CD, GitHub Actions, IaC, Terraform, CloudFormation, DevOps Practices
-- **Monitoring & Observability** : CloudWatch, DataDog, PagerDuty, Logging, Metrics, Alerting
-- **Architecture & Design** : Solution Architecture, System Design, Microservices Architecture, Object-Oriented Programming, API Design
-- **Testing & Quality** : Unit Testing, Integration Testing, UAT, Code Reviews, ESLint, Prettier
-- **Version Control & Collaboration** : Git, GitHub, Pull Requests, Code Reviews
-- **Agile & Delivery** : Agile Methodologies, Scrum, Sprint Planning, Cross-Functional Collaboration
-- **Leadership** : Technical Leadership, Mentoring, Team Enablement
-- **Accountability & Ownership** : Service Ownership, End-to-End Delivery, Stakeholder Collaboration, Guiding Technical Decisions
+- **Frontend**: HTML, CSS, JavaScript, TypeScript
+- **Backend**: Node.js, C#, .NET Framework, .NET Core, ASP.NET, ASP.NET Web API, Microservices, REST APIs
+- **Programming Languages**: JavaScript, TypeScript, C#
+- **Cloud & AWS**: Amazon Web Services (AWS), AWS Lambda, Amazon EC2, Amazon ECS, Amazon S3, Amazon DynamoDB, Amazon RDS, Amazon Aurora, Amazon CloudWatch, AWS CloudFormation, EventBridge, SNS, SQS
+- **Databases & Data Stores**: DynamoDB, Redis, MySQL, SQLite, PostgreSQL, Microsoft SQL Server, Elasticsearch
+- **Serverless & Distributed Systems**: Serverless Architecture, Event-Driven Architecture, On-Demand Scaling, Fault-Tolerant Systems, High Availability
+- **DevOps & CI/CD**: Docker, CI/CD, GitHub Actions, IaC, Terraform, CloudFormation, DevOps Practices
+- **Monitoring & Observability**: CloudWatch, DataDog, PagerDuty, Logging, Metrics, Alerting
+- **Architecture & Design**: Solution Architecture, System Design, Microservices Architecture, Object-Oriented Programming, API Design, OpenAPI
+- **Version Control & Collaboration**: Git, GitHub, Code Reviews
+- **Agile & Delivery**: Agile Methodologies, Scrum, Sprint Planning, Cross-Functional Collaboration
+- **Leadership**: Technical Leadership, Mentoring, Team Enablement
+- **Accountability & Ownership**: Service Ownership, End-to-End Delivery, Stakeholder Collaboration, Guiding Technical Decisions
 
 ## 🏅 Certifications
 
