@@ -1,6 +1,6 @@
 # Amol Sood
 
-**Software Engineer**
+**Senior Software Engineer**
 
 📧 Email: [sood.amol@gmail.com](mailto:sood.amol@gmail.com)
 📱 Phone: [+61485853890](tel:+61485853890)
@@ -15,7 +15,7 @@ Experienced software engineer focused on building scalable, production-ready sys
 
 ## 🏢 Experience
 
-**Senior Software Engineer - Backend Platform**, [Sciana Health](https://sciana.health) (via LogicWeave) — 2025-04 to 2025-12
+**Senior Software Engineer - Backend Platform**, [Sciana Health](https://sciana.health) (via LogicWeave) — 2025-04 to 2026-01
 Remote (Australia-based HealthTech)
 
 *Led the backend engineering of a cloud-native healthcare platform enabling concussion assessments and preventative health checks across clinics in Australia. Owned the end-to-end design and delivery of serverless APIs, event-driven workflows, and secure medical device integrations with NeuroFlex VR. Played a pivotal role in translating clinical and operational requirements into scalable software systems, including automated medical reporting, nationwide booking orchestration, and high-reliability DevOps pipelines, modernizing patient assessment and clinical data flows.*
@@ -84,17 +84,16 @@ Noida, Uttar Pradesh, India
 
 - **Frontend**: HTML, CSS, JavaScript, TypeScript
 - **Backend**: Node.js, C#, .NET Framework, .NET Core, ASP.NET, ASP.NET Web API, Microservices, REST APIs
-- **Programming Languages**: JavaScript, TypeScript, C#
+- **Programming Languages**: JavaScript, TypeScript, C#, Java
 - **Cloud & AWS**: Amazon Web Services (AWS), AWS Lambda, Amazon EC2, Amazon ECS, Amazon S3, Amazon DynamoDB, Amazon RDS, Amazon Aurora, Amazon CloudWatch, AWS CloudFormation, EventBridge, SNS, SQS
 - **Databases & Data Stores**: DynamoDB, Redis, MySQL, SQLite, PostgreSQL, Microsoft SQL Server, Elasticsearch
 - **Serverless & Distributed Systems**: Serverless Architecture, Event-Driven Architecture, On-Demand Scaling, Fault-Tolerant Systems, High Availability
 - **DevOps & CI/CD**: Docker, CI/CD, GitHub Actions, IaC, Terraform, CloudFormation, DevOps Practices
-- **Monitoring & Observability**: CloudWatch, DataDog, PagerDuty, Logging, Metrics, Alerting
+- **Monitoring & Observability**: CloudWatch, DataDog, PagerDuty
 - **Architecture & Design**: Solution Architecture, System Design, Microservices Architecture, Object-Oriented Programming, API Design, OpenAPI
 - **Version Control & Collaboration**: Git, GitHub, Code Reviews
-- **Agile & Delivery**: Agile Methodologies, Scrum, Sprint Planning, Cross-Functional Collaboration
 - **Leadership**: Technical Leadership, Mentoring, Team Enablement
-- **Accountability & Ownership**: Service Ownership, End-to-End Delivery, Stakeholder Collaboration, Guiding Technical Decisions
+- **Accountability & Ownership**: End-to-End Delivery, Stakeholder Collaboration, Guiding Technical Decisions
 
 ## 🏅 Certifications
 

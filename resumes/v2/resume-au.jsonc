@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
 	"basics": {
 		"name": "Amol Sood",
-		"label": "Senior Software Engineer @ Stockpile",
+		"label": "Senior Software Engineer",
 		// "image": "https://media.licdn.com/dms/image/v2/D5603AQGwkgkrGAXzsQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731853268554?e=1771459200&v=beta&t=B4t8U6rpitKuH9_QkUQkTqKQaRAtZtSEx2C4cNA4_O0",
 		"email": "sood.amol@gmail.com",
 		"phone": "+61485853890",
@@ -40,7 +40,7 @@
 			"company": "Sciana Health (via LogicWeave)",
 			"position": "Senior Software Engineer - Backend Platform",
 			"startDate": "2025-04-29",
-			"endDate": "2025-12-12",
+			"endDate": "2026-01-01",
 			"highlights": [
 				"Clinical Platform Architecture: Designed and delivered a cloud-native, serverless backend powering nationwide concussion assessments and preventative health checks, translating clinical workflows into a scalable, resilient AWS architecture",
 				"Schema-First API Design: Implemented OpenAPI-driven, contract-first APIs to enforce strict data models between a Next.js frontend and decoupled Lambda-based services, enabling predictable integrations and faster clinical feature delivery",
@@ -199,7 +199,7 @@
 		{
 			"name": "Programming Languages",
 			// "level": "Advanced",
-			"keywords": ["JavaScript", "TypeScript", "C#"]
+			"keywords": ["JavaScript", "TypeScript", "C#", "Java"]
 		},
 		{
 			"name": "Cloud & AWS",
@@ -263,10 +263,10 @@
 			"keywords": [
 				"CloudWatch",
 				"DataDog",
-				"PagerDuty",
-				"Logging",
-				"Metrics",
-				"Alerting"
+				"PagerDuty"
+				// "Logging",
+				// "Metrics",
+				// "Alerting"
 			]
 		},
 		{
@@ -286,16 +286,16 @@
 			// "level": "Advanced",
 			"keywords": ["Git", "GitHub", "Pull Requests", "Code Reviews"]
 		},
-		{
-			"name": "Agile & Delivery",
-			// "level": "Advanced",
-			"keywords": [
-				"Agile Methodologies",
-				"Scrum",
-				"Sprint Planning",
-				"Cross-Functional Collaboration"
-			]
-		},
+		// {
+		// 	"name": "Agile & Delivery",
+		// 	// "level": "Advanced",
+		// 	"keywords": [
+		// 		"Agile Methodologies",
+		// 		"Scrum",
+		// 		"Sprint Planning",
+		// 		"Cross-Functional Collaboration"
+		// 	]
+		// },
 		{
 			"name": "Leadership",
 			// "level": "Intermediate",
@@ -305,7 +305,6 @@
 			"name": "Accountability & Ownership",
 			// "level": "Advanced",
 			"keywords": [
-				"Service Ownership",
 				"End-to-End Delivery",
 				"Stakeholder Collaboration",
 				"Guiding Technical Decisions"

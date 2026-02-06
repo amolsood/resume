@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
 	"basics": {
 		"name": "Amol Sood",
-		"label": "Senior Software Engineer @ Stockpile",
+		"label": "Senior Software Engineer",
 		"email": "sood.amol@gmail.com",
 		"phone": "+61485853890",
 		"summary": "Experienced software engineer focused on building scalable, production-ready systems using strong engineering practices and AWS. Brings prior team leadership experience, a hands-on mindset, and close attention to reliability and observability.",
@@ -39,7 +39,7 @@
 			"company": "Sciana Health (via LogicWeave)",
 			"position": "Senior Software Engineer - Backend Platform",
 			"startDate": "2025-04-29",
-			"endDate": "2025-12-12",
+			"endDate": "2026-01-01",
 			"highlights": [
 				"Clinical Platform Architecture: Designed and delivered a cloud-native, serverless backend powering nationwide concussion assessments and preventative health checks, translating clinical workflows into a scalable, resilient AWS architecture",
 				"Schema-First API Design: Implemented OpenAPI-driven, contract-first APIs to enforce strict data models between a Next.js frontend and decoupled Lambda-based services, enabling predictable integrations and faster clinical feature delivery",
@@ -185,7 +185,8 @@
 			"keywords": [
 				"JavaScript",
 				"TypeScript",
-				"C#"
+				"C#",
+				"Java"
 			]
 		},
 		{
@@ -245,10 +246,7 @@
 			"keywords": [
 				"CloudWatch",
 				"DataDog",
-				"PagerDuty",
-				"Logging",
-				"Metrics",
-				"Alerting"
+				"PagerDuty"
 			]
 		},
 		{
@@ -271,15 +269,6 @@
 			]
 		},
 		{
-			"name": "Agile & Delivery",
-			"keywords": [
-				"Agile Methodologies",
-				"Scrum",
-				"Sprint Planning",
-				"Cross-Functional Collaboration"
-			]
-		},
-		{
 			"name": "Leadership",
 			"keywords": [
 				"Technical Leadership",
@@ -290,7 +279,6 @@
 		{
 			"name": "Accountability & Ownership",
 			"keywords": [
-				"Service Ownership",
 				"End-to-End Delivery",
 				"Stakeholder Collaboration",
 				"Guiding Technical Decisions"
