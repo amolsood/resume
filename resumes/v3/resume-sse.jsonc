@@ -3,6 +3,7 @@
 	"basics": {
 		"name": "Amol Sood",
 		"label": "Senior Software Engineer",
+		// "image": "https://media.licdn.com/dms/image/v2/D5603AQGwkgkrGAXzsQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731853268554?e=1771459200&v=beta&t=B4t8U6rpitKuH9_QkUQkTqKQaRAtZtSEx2C4cNA4_O0",
 		"email": "sood.amol@gmail.com",
 		"phone": "+61485853890",
 		"summary": "Senior backend engineer with 10 years of experience designing and operating cloud-native, event-driven systems in regulated HealthTech and FinTech environments. Specialises in AWS serverless architectures, API design, and high-reliability platforms, with a strong track record of owning complex integrations end-to-end and translating business and regulatory requirements into scalable production systems.",
@@ -32,7 +33,7 @@
 			"startDate": "2025-04-29",
 			"endDate": "2026-01-01",
 			"highlights": [
-				"Built the backend platform from the ground up for a scale-up healthcare product, delivering a serverless AWS architecture supporting multi-clinic, multi-provider workflows and designed to scale to high volumes of patient and booking events",
+				"Built the backend platform from the ground up for a scale-up healthcare product, delivering a serverless AWS architecture supporting multi-clinic workflows and designed to scale to high volumes of patient and booking events",
 				"Integrated NeuroFlex VR medical devices to automate ingestion of diagnostic data and generation of clinician-ready PDF reports, establishing the core automated clinical assessment workflow",
 				"Designed and validated an event-driven architecture (EventBridge, SQS, SNS), load-tested to handle thousands of asynchronous events per day with strong service decoupling",
 				"Established CI/CD pipelines and infrastructure-as-code early, enabling multiple safe production deployments per week and reducing operational risk as the platform prepared for broader rollout"
@@ -106,7 +107,35 @@
 		}
 	],
 	"volunteer": [],
-	"education": [],
+	"education": [
+		// {
+		// 	"institution": "Rajasthan Technical University",
+		// 	"area": "Computer Science Engineering",
+		// 	"studyType": "Bachelor of Technology (B.Tech.)",
+		// 	"startDate": "2011-08-31",
+		// 	"endDate": "2015-05-31",
+		// 	// "score": "72.8",
+		// 	"courses": []
+		// }
+		// {
+		// 	"institution": "Greenway Modern School, Delhi",
+		// 	"area": "Science Specification with Computer Science",
+		// 	"studyType": "12th",
+		// 	"startDate": "2010-04-30",
+		// 	"endDate": "2011-04-30",
+		// 	"score": "82",
+		// 	"courses": []
+		// },
+		// {
+		// 	"institution": "St. Lawrence Public School",
+		// 	"area": "Standard",
+		// 	"studyType": "10th",
+		// 	"startDate": "2008-04-30",
+		// 	"endDate": "2009-04-30",
+		// 	"score": "81.2",
+		// 	"courses": []
+		// }
+	],
 	"awards": [],
 	"certificates": [
 		{
@@ -121,6 +150,7 @@
 	"skills": [
 		{
 			"name": "Backend & APIs",
+			// "level": "Master",
 			"keywords": [
 				"Node.js",
 				"TypeScript",
@@ -131,6 +161,7 @@
 		},
 		{
 			"name": "Cloud & Serverless (AWS)",
+			// "level": "Advanced",
 			"keywords": [
 				"AWS Lambda",
 				"API Gateway",
@@ -155,16 +186,12 @@
 		},
 		{
 			"name": "Databases",
-			"keywords": [
-				"DynamoDB",
-				"PostgreSQL",
-				"MySQL",
-				"Redis",
-				"SQL"
-			]
+			// "level": "Advanced",
+			"keywords": ["DynamoDB", "PostgreSQL", "MySQL", "Redis", "SQL"]
 		},
 		{
 			"name": "DevOps & Reliability",
+			// "level": "Advanced",
 			"keywords": [
 				"CI/CD",
 				"GitHub Actions",
@@ -176,14 +203,26 @@
 		},
 		{
 			"name": "Languages",
-			"keywords": [
-				"TypeScript",
-				"JavaScript",
-				"C#",
-				"Java"
-			]
+			// "level": "Advanced",
+			"keywords": ["TypeScript", "JavaScript", "C#", "Java"]
 		}
 	],
+	// "interests": [
+	// 	{
+	// 		"name": "Gaming",
+	// 		"keywords": ["Multiplayer Online Games", "RPGs", "Strategy Games"]
+	// 	}
+	// ],
+	// "references": [
+	// 	{
+	// 		"reference": "I had the pleasure of working with Amol at Stockpile, where he was a key backend engineer on our team. Amol is one of those engineers you can trust to take an idea from nothing and turn it into a production ready system that actually holds up in the real world. Technically, Amol is very strong across the backend stack. He is highly skilled in TypeScript, Node, Java, and both SQL and NoSQL databases, and he consistently applied that knowledge to build reliable, scalable services. He was comfortable owning projects end to end, from initial design and implementation to deployment and ongoing improvements. What really set Amol apart was his ability to communicate. He could explain highly technical concepts clearly to non-technical stakeholders, work closely with product managers to translate requirements into solid technical solutions, and collaborate effectively with external vendors and partners. He was thoughtful, clear, and pragmatic in how he approached tradeoffs and problem solving. Amol was also extremely responsive and dependable. When something needed attention, you could count on him to jump in, follow through, and keep everyone informed. On top of all of that, he was simply a pleasure to have on the team and someone I genuinely enjoyed working with. Any team would be lucky to have Amol, and I would absolutely work with him again. I strongly recommend him for any backend or full-stack engineering role.",
+	// 		"name": "Zachary Zapata, Director of Engineering, Stockpile"
+	// 	},
+	// 	{
+	// 		"reference": "Amol is the person who comes to my mind when thinking of the phrase Knowledge shared = Knowledge². He is tech-savvy and always eager to improve the overall tech quotient. We could always rely on Amol to debug problems thoroughly. Any technical problem is no more a problem when he takes it up.",
+	// 		"name": "Yash Shukla, Implementations, base.com"
+	// 	}
+	// ],
 	"projects": [],
 	"meta": {
 		"version": "v1.0.0",
