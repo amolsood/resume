@@ -150,7 +150,10 @@
 			"keywords": [
 				"System Design",
 				"Distributed Systems",
-				"Event-Driven Systems"
+				"Serverless MicroServices",
+				"Event-Driven Systems",
+				"Data Modelling",
+				"Schema Design"
 			]
 		},
 		{
@@ -160,7 +163,8 @@
 				"PostgreSQL",
 				"MySQL",
 				"Redis",
-				"SQL"
+				"SQL",
+				"RedShift"
 			]
 		},
 		{
