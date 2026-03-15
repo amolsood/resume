@@ -3,7 +3,7 @@
 **Senior Software Engineer**
 
 📧 Email: [sood.amol@gmail.com](mailto:sood.amol@gmail.com)
-📱 Phone: [+61485853890](tel:+61485853890)
+📱 Phone: [+61485853890](tel:+61485676156)
 💬 WhatsApp: [wa.me/918860022710](https://wa.me/918860022710)
 💼 LinkedIn: [linkedin.com/in/soodamol](https://www.linkedin.com/in/soodamol/)
 💻 GitHub: [github.com/amolsood](https://github.com/amolsood)
