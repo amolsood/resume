@@ -40,7 +40,7 @@
 			],
 			"summary": "Owned backend architecture and delivery for a cloud-native healthcare platform supporting concussion assessments and preventative health checks across multiple clinics in Australia. Led the design of serverless APIs, event-driven workflows, and secure medical device integrations, ensuring high reliability and compliance in a clinical environment.",
 			"url": "https://sciana.health",
-			"location": "Remote (Australia-based HealthTech)"
+			"location": "Melbourne, Victoria, Australia"
 		},
 		{
 			"name": "Stockpile",
@@ -56,7 +56,7 @@
 			],
 			"summary": "Led complex third-party integrations for a regulated FinTech platform, owning solution design from architecture through production delivery. Acted as the technical point of contact for external partners and internal stakeholders, with responsibility for reliability, scalability, and regulatory alignment.",
 			"url": "https://www.stockpile.com",
-			"location": "Remote (US-based FinTech)"
+			"location": "San Francisco, California, USA"
 		},
 		{
 			"name": "Flyte",
