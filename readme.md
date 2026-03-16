@@ -4,7 +4,6 @@
 
 📧 Email: [sood.amol@gmail.com](mailto:sood.amol@gmail.com)
 📱 Phone: [+61485853890](tel:+61485676156)
-💬 WhatsApp: [wa.me/918860022710](https://wa.me/918860022710)
 💼 LinkedIn: [linkedin.com/in/soodamol](https://www.linkedin.com/in/soodamol/)
 💻 GitHub: [github.com/amolsood](https://github.com/amolsood)
 📅 Meeting: [Schedule a meeting](https://calendar.app.google/8z7WoELQEzvtjLbX8)
