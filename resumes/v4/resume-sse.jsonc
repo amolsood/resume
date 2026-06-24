@@ -3,6 +3,7 @@
 	"basics": {
 		"name": "Amol Sood",
 		"label": "Senior Software Engineer",
+		// "image": "https://media.licdn.com/dms/image/v2/D5603AQGwkgkrGAXzsQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731853268554?e=1771459200&v=beta&t=B4t8U6rpitKuH9_QkUQkTqKQaRAtZtSEx2C4cNA4_O0",
 		"email": "sood.amol@gmail.com",
 		"phone": "+61485676156",
 		"summary": "10 years in building cloud-based systems for healthcare and finance companies. Deep experience with AWS serverless (Lambda, ECS, DynamoDB, EventBridge, API Gateway) and taking things to production. Comfortable translating complex business requirements into technical solutions and owning systems that work",
@@ -128,6 +129,7 @@
 			"studyType": "Bachelor of Technology (B.Tech.)",
 			"startDate": "2011-08-31",
 			"endDate": "2015-05-31",
+			// "score": "72.8",
 			"courses": []
 		}
 	],
@@ -204,22 +206,11 @@
 		},
 		{
 			"name": "Languages",
-			"keywords": [
-				"TypeScript",
-				"JavaScript",
-				"C#",
-				"Java"
-			]
+			"keywords": ["TypeScript", "JavaScript", "C#", "Java"]
 		},
 		{
 			"name": "AI Tools",
-			"keywords": [
-				"Cursor",
-				"Claude Code",
-				"Open Code",
-				"Skills",
-				"MCP"
-			]
+			"keywords": ["Cursor", "Claude Code", "Open Code", "Skills", "MCP"]
 		}
 	],
 	"projects": [],
