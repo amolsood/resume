@@ -2,10 +2,10 @@
 	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
 	"basics": {
 		"name": "Amol Sood",
-		"label": "Senior Software Engineer",
+		"label": "Solutions Architect",
 		"email": "sood.amol@gmail.com",
 		"phone": "+61485676156",
-		"summary": "10 years in building cloud-based systems for healthcare and finance companies. Deep experience with AWS serverless (Lambda, ECS, DynamoDB, EventBridge, API Gateway) and taking things to production. Comfortable translating complex business requirements into technical solutions, with good communication skills and owning systems that work",
+		"summary": "AWS Certified Solutions Architect with 10 years designing and delivering cloud-native systems for healthcare and finance companies. Translates ambiguous business and stakeholder requirements into secure, scalable technical architecture, then owns delivery through to production. Deep expertise in event-driven serverless design on AWS (Lambda, ECS, DynamoDB, EventBridge, API Gateway), multi-tenant data modelling, and third-party/partner integration architecture. Comfortable operating as the technical point of contact for founders, partners, and cross-functional teams.",
 		"location": {
 			"city": "Newcastle",
 			"region": "New South Wales",
@@ -28,14 +28,14 @@
 		{
 			"name": "Stratex Consulting Services",
 			"company": "Stratex Consulting Services",
-			"position": "Senior Software Consultant",
+			"position": "Solutions Architect (Senior Software Consultant)",
 			"startDate": "2026-04-15",
-			"summary": "Building a cloud-native platform from scratch for NDIS management, enabling organisations to manage their clients",
+			"summary": "Sole technical architect designing a cloud-native NDIS management platform from scratch, working directly with founders to shape the data model, service boundaries, and integration strategy.",
 			"highlights": [
-				"Collaborating with founders to translate complex requirements into technical solutions",
-				"Actively using AI tools and skills to accelerate development, code generation and documentation",
-				"Building a resilient and scalable backend platform based on micro-services event-driven serverless AWS architecture",
-				"Designing and implementing secure APIs with OpenAPI standards and data models to support NDIS client management workflows"
+				"Designed a multi-tenant data architecture (schema-per-tenant on Aurora Serverless v2, plus DynamoDB single-table design) to support secure, isolated client management workflows across organisations",
+				"Architected the rostering and scheduling domain model end-to-end, including shift allocation, timesheet, and award-compliance data structures, in direct collaboration with founders",
+				"Designed the API and integration architecture (OpenAPI specs, Terraform-managed API Gateway) supporting the platform's client management and workflow orchestration needs",
+				"Introduced AI-assisted architecture and delivery tooling (Claude Code, MCP servers) to accelerate solution design, documentation, and cross-team communication"
 			],
 			"url": "https://www.stratexcs.com",
 			"location": "Perth, Western Australia, Australia (Remote)"
@@ -43,15 +43,15 @@
 		{
 			"name": "Sciana Health",
 			"company": "Sciana Health (via LogicWeave)",
-			"position": "Senior Software Engineer - Backend Platform",
+			"position": "Solutions Architect - Backend Platform",
 			"startDate": "2025-04-29",
 			"endDate": "2026-01-01",
-			"summary": "Owned backend architecture and delivery for a cloud-native healthcare platform supporting concussion assessments and preventative health checks across multiple clinics in Australia. Led the design of serverless APIs, event-driven workflows, and secure medical device integrations, ensuring high reliability and compliance in a clinical environment.",
+			"summary": "Owned end-to-end backend architecture for a cloud-native healthcare platform supporting concussion assessments and preventative health checks across multiple clinics, translating clinical and compliance requirements into a serverless AWS architecture built for scale.",
 			"highlights": [
-				"Built the backend platform from the ground up for a scale-up healthcare product, delivering a serverless AWS architecture supporting multi-clinic, multi-provider workflows and designed to scale to high volumes of patient and booking events",
-				"Integrated NeuroFlex VR medical devices to automate ingestion of diagnostic data and generation of clinician-ready PDF reports, establishing the core automated clinical assessment workflow",
-				"Designed and validated an event-driven architecture (EventBridge, SQS, SNS), load-tested to handle thousands of asynchronous events per day with strong service decoupling",
-				"Established CI/CD pipelines and infrastructure-as-code early, enabling multiple safe production deployments per week and reducing operational risk as the platform prepared for broader rollout"
+				"Architected a serverless AWS platform from the ground up to support multi-clinic, multi-provider workflows, designed to scale to high volumes of patient and booking events",
+				"Designed the integration architecture for NeuroFlex VR medical devices, automating diagnostic data ingestion and clinician-ready PDF report generation as the platform's core clinical workflow",
+				"Designed and load-tested an event-driven architecture (EventBridge, SQS, SNS) handling thousands of asynchronous events per day with strong service decoupling",
+				"Established CI/CD and infrastructure-as-code foundations enabling multiple safe production deployments per week, reducing operational risk ahead of broader rollout"
 			],
 			"url": "https://sciana.health",
 			"location": "Melbourne, Victoria, Australia (Remote)"
@@ -59,15 +59,15 @@
 		{
 			"name": "Stockpile",
 			"company": "Stockpile",
-			"position": "Senior Software Engineer - Platform Integrations & Cloud Architecture",
+			"position": "Solutions Architect - Platform Integrations & Cloud Architecture",
 			"startDate": "2023-04-01",
 			"endDate": "2025-04-15",
-			"summary": "Led complex third-party integrations for a regulated FinTech platform, owning solution design from architecture through production delivery. Acted as the technical point of contact for external partners and internal stakeholders, with responsibility for reliability, scalability, and regulatory alignment.",
+			"summary": "Owned solution design end-to-end for complex third-party integrations on a regulated FinTech platform, acting as the primary technical point of contact for external partners and internal stakeholders on reliability, scalability, and regulatory alignment.",
 			"highlights": [
-				"Delivered and operated production integrations with regulated FinTech partners including Green Dot, Apex Clearing (Apex Ascend), and Apex Bakkt, supporting brokerage, payments, and custody workflows for 50k+ users",
-				"Designed secure and auditable integration architectures for sensitive financial and brokerage data, meeting partner compliance requirements for traceability, reconciliation, and incident reporting",
-				"Built and maintained AWS-based production services using Lambda, DynamoDB, ECS, EventBridge, SNS, and SQL databases, processing tens of thousands of account, transaction, and lifecycle events per day",
-				"Served as the primary technical point of contact for external partners, leading partner onboarding, production incident coordination, and post-incident root cause analysis"
+				"Designed and delivered production integration architectures with regulated FinTech partners including Green Dot, Apex Clearing (Apex Ascend), and Apex Bakkt, supporting brokerage, payments, and custody workflows for 50k+ users",
+				"Designed secure, auditable integration architectures for sensitive financial and brokerage data, meeting partner compliance requirements for traceability, reconciliation, and incident reporting",
+				"Architected AWS-based production services (Lambda, DynamoDB, ECS, EventBridge, SNS, SQL) processing tens of thousands of account, transaction, and lifecycle events per day",
+				"Served as primary technical point of contact for external partners, leading solution design during partner onboarding, production incident coordination, and post-incident root cause analysis"
 			],
 			"url": "https://www.stockpile.com",
 			"location": "Palo Alto, California, USA (Remote)"
@@ -78,12 +78,12 @@
 			"position": "Technical Lead → Associate Technical Architect",
 			"startDate": "2019-02-28",
 			"endDate": "2023-03-30",
-			"summary": "Progressed from Technical Lead to Associate Technical Architect, combining hands-on backend engineering with architectural ownership across regulated FinTech systems. Owned critical services end-to-end, mentored engineers, and partnered with product and support teams to improve platform reliability, observability, and delivery velocity.",
+			"summary": "Progressed from Technical Lead to Associate Technical Architect, owning architectural decisions across regulated FinTech systems while mentoring engineers and partnering with product and support teams on reliability and observability.",
 			"highlights": [
-				"Owned backend services supporting regulated banking, brokerage, and cryptocurrency products used by a growing retail customer base",
-				"Led integrations enabling checking accounts, debit cards, stock gifting, and crypto investments through Synapse and Apex Crypto Clearing",
-				"Improved incident response times by introducing centralised monitoring and alerting using CloudWatch, DataDog, and PagerDuty",
-				"Mentored engineers and established ownership models as the platform and team scaled"
+				"Owned architecture for backend services supporting regulated banking, brokerage, and cryptocurrency products used by a growing retail customer base",
+				"Designed integration architecture enabling checking accounts, debit cards, stock gifting, and crypto investments through Synapse and Apex Crypto Clearing",
+				"Designed centralised monitoring and alerting architecture (CloudWatch, DataDog, PagerDuty), improving incident response times",
+				"Mentored engineers and established architectural ownership models as the platform and team scaled"
 			],
 			"location": "Gurugram, Haryana, India"
 		},
@@ -144,13 +144,16 @@
 	"publications": [],
 	"skills": [
 		{
-			"name": "Backend & APIs",
+			"name": "Architecture & Solution Design",
 			"keywords": [
-				"Node.js",
-				"TypeScript",
-				"REST APIs",
-				"Microservices",
-				"OpenAPI"
+				"System Design",
+				"Distributed Systems",
+				"Event-Driven Architecture",
+				"Serverless Microservices",
+				"Multi-Tenant Data Modelling",
+				"Schema Design",
+				"Technical Design",
+				"Stakeholder Requirements Translation"
 			]
 		},
 		{
@@ -170,15 +173,13 @@
 			]
 		},
 		{
-			"name": "Architecture & Systems",
+			"name": "Backend & APIs",
 			"keywords": [
-				"System Design",
-				"Distributed Systems",
-				"Serverless MicroServices",
-				"Event-Driven Systems",
-				"Data Modelling",
-				"Schema Design",
-				"Technical Design"
+				"Node.js",
+				"TypeScript",
+				"REST APIs",
+				"Microservices",
+				"OpenAPI"
 			]
 		},
 		{
