@@ -6,7 +6,7 @@
 		// "image": "https://media.licdn.com/dms/image/v2/D5603AQGwkgkrGAXzsQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731853268554?e=1771459200&v=beta&t=B4t8U6rpitKuH9_QkUQkTqKQaRAtZtSEx2C4cNA4_O0",
 		"email": "sood.amol@gmail.com",
 		"phone": "+61485676156",
-		"summary": "10 years in building cloud-based systems for healthcare and finance companies. Deep experience with AWS serverless (Lambda, ECS, DynamoDB, EventBridge, API Gateway) and taking things to production. Comfortable translating complex business requirements into technical solutions and owning systems that work",
+		"summary": "10 years in building cloud-based systems for healthcare and finance companies. Deep experience with AWS serverless (Lambda, ECS, DynamoDB, EventBridge, API Gateway) and taking things to production. Comfortable translating complex business requirements into technical solutions, with self-motivation and good communication skills and owning systems that work",
 		"location": {
 			"city": "Newcastle",
 			"region": "New South Wales",
@@ -35,7 +35,7 @@
 			"highlights": [
 				"Collaborating with founders to translate complex requirements into technical solutions",
 				"Actively using AI tools and skills to accelerate development, code generation and documentation",
-				"Building a resilient and scalable backend platform based on micro-services event-driven serverless AWS architecture",
+				"Building a resilient and scalable production system based on micro-services event-driven serverless AWS architecture",
 				"Designing and implementing secure APIs with OpenAPI standards and data models to support NDIS client management workflows"
 			],
 			"url": "https://www.stratexcs.com",
@@ -81,9 +81,9 @@
 			"endDate": "2023-03-30",
 			"summary": "Progressed from Technical Lead to Associate Technical Architect, combining hands-on backend engineering with architectural ownership across regulated FinTech systems. Owned critical services end-to-end, mentored engineers, and partnered with product and support teams to improve platform reliability, observability, and delivery velocity.",
 			"highlights": [
-				"Owned backend services supporting regulated banking, brokerage, and cryptocurrency products used by a growing retail customer base",
+				"Owned backend services supporting regulated banking, brokerage, and cryptocurrency products used by a 30k+ users",
 				"Led integrations enabling checking accounts, debit cards, stock gifting, and crypto investments through Synapse and Apex Crypto Clearing",
-				"Improved incident response times by introducing centralised monitoring and alerting using CloudWatch, DataDog, and PagerDuty",
+				"Improved incident response times to just 5 minutes by introducing centralised monitoring and alerting using CloudWatch, DataDog, and PagerDuty",
 				"Mentored engineers and established ownership models as the platform and team scaled"
 			],
 			"location": "Gurugram, Haryana, India"
@@ -179,7 +179,8 @@
 				"Serverless MicroServices",
 				"Event-Driven Systems",
 				"Data Modelling",
-				"Schema Design"
+				"Schema Design",
+				"Technical Design"
 			]
 		},
 		{
@@ -210,7 +211,13 @@
 		},
 		{
 			"name": "AI Tools",
-			"keywords": ["Cursor", "Claude Code", "Open Code", "Skills", "MCP"]
+			"keywords": [
+				"Cursor",
+				"Claude Code",
+				"Open Code",
+				"Skills",
+				"MCP"
+			]
 		}
 	],
 	"projects": [],

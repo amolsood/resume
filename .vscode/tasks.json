@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "export",
+			"options": {
+				"env": {"npm_config_theme": "stackoverflow"}
+			},
+			"problemMatcher": [],
+			"label": "Export Resume (stackoverflow)",
+			"group": {
+				"kind": "build"
+			}
+		},
+		{
+			"type": "npm",
+			"script": "export:ats",
+			"problemMatcher": [],
+			"label": "Export Resume (ATS)",
+			"group": {
+				"kind": "build",
+			}
+		}
+	]
+}
