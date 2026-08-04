@@ -5,7 +5,7 @@
 		"label": "Senior Software Engineer",
 		"email": "sood.amol@gmail.com",
 		"phone": "+61485676156",
-		"summary": "10 years in building cloud-based systems for healthcare and finance companies. Deep experience with AWS serverless (Lambda, ECS, DynamoDB, EventBridge, API Gateway) and taking things to production. Comfortable translating complex business requirements into technical solutions, with self-motivation and good communication skills and owning systems that work",
+		"summary": "10 years in building cloud-based systems. Fluent with AWS serverless (Lambda, ECS, DynamoDB, EventBridge, API Gateway) and taking things to production with attention to detail. Comfortable translating complex business requirements into technical solutions, with self-motivation and good communication skills and owning systems that work",
 		"location": {
 			"city": "Newcastle",
 			"region": "New South Wales",
@@ -67,7 +67,7 @@
 				"Delivered and operated production integrations with regulated FinTech partners including Green Dot, Apex Clearing (Apex Ascend), and Apex Bakkt, supporting brokerage, payments, and custody workflows for 50k+ users",
 				"Designed secure and auditable integration architectures for sensitive financial and brokerage data, meeting partner compliance requirements for traceability, reconciliation, and incident reporting",
 				"Built and maintained AWS-based production services using Lambda, DynamoDB, ECS, EventBridge, SNS, and SQL databases, processing tens of thousands of account, transaction, and lifecycle events per day",
-				"Served as the primary technical point of contact for external partners, leading partner onboarding, production incident coordination, and post-incident root cause analysis"
+				"Served as the primary technical point of contact for external partners, leading partner onboarding, production incident coordination, troubleshooting, and post-incident root cause analysis"
 			],
 			"url": "https://www.stockpile.com",
 			"location": "Palo Alto, California, USA (Remote)"
@@ -166,7 +166,8 @@
 				"ECS",
 				"CloudFormation",
 				"Terraform",
-				"OpenSearch"
+				"OpenSearch",
+				"Docker"
 			]
 		},
 		{
@@ -200,7 +201,8 @@
 				"Monitoring",
 				"CloudWatch",
 				"DataDog",
-				"PagerDuty"
+				"PagerDuty",
+				"Integration Testing"
 			]
 		},
 		{
