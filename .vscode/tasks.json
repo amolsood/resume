@@ -21,6 +21,18 @@
 			"group": {
 				"kind": "build",
 			}
-		}
+		},
+		{
+			"type": "npm",
+			"script": "serve",
+			"options": {
+				"env": {"npm_config_theme": "stackoverflow"}
+			},
+			"problemMatcher": [],
+			"label": "Serve Resume",
+			"group": {
+				"kind": "build",
+			}
+		},
 	]
 }
